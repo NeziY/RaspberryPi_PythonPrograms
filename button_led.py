@@ -4,7 +4,7 @@ import time
 def main():
 
     try:
-        GPIO.setupmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BCM)
       
         led_pin = 18
         but_pin = 17
